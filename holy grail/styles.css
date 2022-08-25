@@ -1,0 +1,89 @@
+:root {
+    --dark:#000000;
+    --light:#86cfa1;
+    --main:#058d20;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark);
+    color: var(--light);
+    width: 100vw;
+    height: 90px;
+}
+
+.navbar a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+    text-decoration: none;
+    margin: 0px 50px;
+}
+
+.body {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.left-bar {
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    height: 100vh;
+    justify-content: space-around;
+}
+
+.left-bar div {
+    height: 400px;
+}
+
+.center-bar {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-bar div {
+    height: 400px;
+}
+
+.right-bar {
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    height: 100vh;
+    justify-content: space-around;
+}
+
+.right-bar div {
+    height: 400px;
+    justify-content: end;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark);
+    color: var(--light);
+    width: 100vw;
+    height: 40px;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+    text-decoration: none;
+    padding: 0px 50px;
+    margin: 0px 50px;
+}
