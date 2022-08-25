@@ -1,0 +1,143 @@
+/* css variables */
+
+:root {
+    --primary:rgb(146, 108, 118);
+    --dark:rgb(0, 0, 0);
+    --light:rgb(191, 225, 219);
+    --shadow:0 1px 5px rgba(137, 125, 125, 0.8);
+}
+
+section {
+    margin:0;
+}
+
+html {
+    box-sizing:border-box;
+    width:100%;
+}
+
+body{
+    margin: 0px;
+    width: 100%;
+    background-color: var(--primary);
+
+}
+
+/* navigation bar */
+
+.navbar {
+    position:fixed;
+display:flex;
+width: 100%;
+height: 50px;
+justify-content:center;
+align-items: center;
+background-color: var(--dark);
+margin:0;
+}
+
+.navbar button {
+display:flex;
+justify-content: center;
+align-items: center;
+margin: 0px 50px;
+height: 30px;
+color: var(--light);
+background-color: var(--dark);
+font-weight: lighter;
+border:0px;
+
+}
+
+.navbar button:hover {
+    color: #fff;
+}
+
+/* hero image area */
+
+.hero-img {
+    background: src= "Alien.jpg";
+    background: fixed;
+    width:100%;
+    height:900px;
+    z-index: -1;
+    margin:0;
+    opacity: 0.9;
+    overflow:hidden;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    height:950px;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    text-align: center;
+    margin:0;
+}
+
+.header {
+    display:flex;
+    font-size: 100px;
+    height: 600px;
+    width: 100%;
+    margin:0;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-two {
+    font-size: xx-large;
+    height:300px;
+    width:100%;
+    margin:0;
+}
+/* info */
+
+.info-bar {
+    display:flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    margin:0;
+    }
+    
+.info-bar button {
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark);
+    width: 50%;
+    height: 150px;
+    color: var(--light);
+    margin-top:0;
+    }
+
+/* review section */
+
+.reviews {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    margin:0;
+    height: 500px;
+    list-style-type: none;
+}
+
+.reviews li {
+    display:flex;
+    background-color: brown;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width:500px;
+}
+
+
+/* footer */
+
+/* media queries */
+
